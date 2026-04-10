@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>診断テスト - ファイル読み込み確認</title>
+    <style>
+        body {
+            font-family: monospace;
+            padding: 20px;
+            background: #1e293b;
+            color: #f1f5f9;
+        }
+        .test-result {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid;
+        }
+        .success {
+            background: #065f46;
+            border-color: #10b981;
+        }
+        .error {
+            background: #7f1d1d;
+            border-color: #ef4444;
+        }
+        .pending {
+            background: #78350f;
+            border-color: #f59e0b;
+        }
+        button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #2563eb;
+        }
+        pre {
+            background: #0f172a;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 ファイル読み込み診断テスト</h1>
+    <p>このページで各ファイルが正しく読み込めるか確認できます。</p>
+    
+    <button onclick="testAll()">全てのテストを実行</button>
+    <button onclick="location.reload()">リセット</button>
+    
+    <div id="results"></div>
+    
+    <h2>📁 想定されるファイル構造:</h2>
+    <pre>
+プロジェクトフォルダ/
+├── data/
+│   ├── Final_Cleaned_2024.csv
+│   └── country_classification.json
+├── index.html
+├── test-files.html (このファイル)
+└── その他のJSファイル
+    </pre>
+
+    <script>
+        const results = document.getElementById('results');
+
+        function addResult(name, status, message) {
+            const div = document.createElement('div');
+            div.className = `test-result ${status}`;
+            div.innerHTML = `<strong>${name}:</strong> ${message}`;
+            results.appendChild(div);
+        }
+
+        async function testFile(name, path, checkContent = null) {
+            addResult(name, 'pending', '読み込み中...');
+            
+            try {
+                const response = await fetch(path);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const contentType = response.headers.get('content-type');
+                let content;
+                
+                if (path.endsWith('.json')) {
+                    content = await response.json();
+                } else {
+                    content = await response.text();
+                }
+                
+                let message = `✅ 成功 (${response.status})`;
+                
+                if (checkContent) {
+                    const check = checkContent(content);
+                    message += ` - ${check}`;
+                }
+                
+                results.removeChild(results.lastChild);
+                addResult(name, 'success', message);
+                
+                return { success: true, content };
+                
+            } catch (error) {
+                results.removeChild(results.lastChild);
+                addResult(name, 'error', `❌ エラー: ${error.message}`);
+                return { success: false, error };
+            }
+        }
+
+        async function testAll() {
+            results.innerHTML = '';
+            
+            // Test 1: CSV file
+            const csv = await testFile(
+                'CSVデータファイル',
+                'data/Final_Cleaned_2024.csv',
+                (content) => {
+                    const lines = content.split('\n');
+                    return `${lines.length}行のデータ`;
+                }
+            );
+            
+            // Test 2: JSON file
+            const json = await testFile(
+                '国分類JSONファイル',
+                'data/country_classification.json',
+                (content) => {
+                    const countryCount = Object.keys(content.countries || {}).length;
+                    const regionCount = Object.keys(content.regions || {}).length;
+                    return `${countryCount}カ国, ${regionCount}地域`;
+                }
+            );
+            
+            // Test 3: GeoJSON from CDN
+            await testFile(
+                '地図データ (CDN)',
+                'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json',
+                (content) => {
+                    return '外部CDNから取得可能';
+                }
+            );
+            
+            // Summary
+            const allSuccess = csv.success && json.success;
+            
+            if (allSuccess) {
+                addResult(
+                    '総合結果',
+                    'success',
+                    '✅ 全てのファイルが正常に読み込めました！メインアプリケーションが動作するはずです。'
+                );
+            } else {
+                addResult(
+                    '総合結果',
+                    'error',
+                    '❌ 一部のファイルが読み込めませんでした。上記のエラーを確認してください。'
+                );
+                
+                addResult(
+                    '対処方法',
+                    'pending',
+                    '1. ファイルパスを確認 2. ローカルサーバーで実行（python -m http.server 8000）3. TROUBLESHOOTING.md を参照'
+                );
+            }
+        }
+
+        // Auto-run on load
+        setTimeout(testAll, 500);
+    </script>
+</body>
+</html>

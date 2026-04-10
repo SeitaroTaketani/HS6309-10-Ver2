@@ -1,0 +1,2656 @@
+{
+  "regions": {
+    "5100": {
+      "code": "5100",
+      "name": "Africa",
+      "subregions": [
+        {
+          "code": "5110",
+          "name": "Northern Africa",
+          "subsubregions": []
+        },
+        {
+          "code": "5120",
+          "name": "Sub-Saharan Africa",
+          "subsubregions": [
+            {
+              "code": "5121",
+              "name": "Eastern Africa"
+            },
+            {
+              "code": "5122",
+              "name": "Middle Africa"
+            },
+            {
+              "code": "5123",
+              "name": "Southern Africa"
+            },
+            {
+              "code": "5124",
+              "name": "Western Africa"
+            }
+          ]
+        }
+      ],
+      "countries": [
+        "DZA",
+        "EGY",
+        "LBY",
+        "MAR",
+        "SDN",
+        "TUN",
+        "ESH",
+        "BDI",
+        "COM",
+        "DJI",
+        "ERI",
+        "ETH",
+        "KEN",
+        "MDG",
+        "MWI",
+        "MUS",
+        "MOZ",
+        "RWA",
+        "SOM",
+        "SSD",
+        "UGA",
+        "TZA",
+        "ZMB",
+        "ZWE",
+        "AGO",
+        "CMR",
+        "CAF",
+        "TCD",
+        "COG",
+        "COD",
+        "GNQ",
+        "GAB",
+        "BWA",
+        "SWZ",
+        "LSO",
+        "NAM",
+        "ZAF",
+        "BEN",
+        "BFA",
+        "CIV",
+        "GMB",
+        "GHA",
+        "GIN",
+        "GNB",
+        "LBR",
+        "MLI",
+        "MRT",
+        "NER",
+        "NGA",
+        "SEN",
+        "SLE",
+        "TGO"
+      ]
+    },
+    "5200": {
+      "code": "5200",
+      "name": "Americas",
+      "subregions": [
+        {
+          "code": "5210",
+          "name": "Northern America",
+          "subsubregions": []
+        },
+        {
+          "code": "5220",
+          "name": "Latin America and the Caribbean",
+          "subsubregions": [
+            {
+              "code": "5221",
+              "name": "Caribbean"
+            },
+            {
+              "code": "5222",
+              "name": "Central America"
+            },
+            {
+              "code": "5223",
+              "name": "South America"
+            }
+          ]
+        }
+      ],
+      "countries": [
+        "CAN",
+        "GRL",
+        "USA",
+        "BHS",
+        "BRB",
+        "CUB",
+        "DOM",
+        "GRD",
+        "HTI",
+        "JAM",
+        "PRI",
+        "TTO",
+        "BLZ",
+        "CRI",
+        "SLV",
+        "GTM",
+        "HND",
+        "MEX",
+        "NIC",
+        "PAN",
+        "ARG",
+        "BOL",
+        "BRA",
+        "CHL",
+        "COL",
+        "ECU",
+        "GUY",
+        "PRY",
+        "PER",
+        "SUR",
+        "URY",
+        "VEN"
+      ]
+    },
+    "5300": {
+      "code": "5300",
+      "name": "Asia",
+      "subregions": [
+        {
+          "code": "5310",
+          "name": "Central Asia",
+          "subsubregions": []
+        },
+        {
+          "code": "5330",
+          "name": "Eastern Asia",
+          "subsubregions": []
+        },
+        {
+          "code": "5350",
+          "name": "South-eastern Asia",
+          "subsubregions": []
+        },
+        {
+          "code": "5320",
+          "name": "Southern Asia",
+          "subsubregions": []
+        },
+        {
+          "code": "5340",
+          "name": "Western Asia",
+          "subsubregions": []
+        }
+      ],
+      "countries": [
+        "KAZ",
+        "KGZ",
+        "TJK",
+        "TKM",
+        "UZB",
+        "CHN",
+        "HKG",
+        "TWN",
+        "PRK",
+        "JPN",
+        "MNG",
+        "KOR",
+        "BRN",
+        "KHM",
+        "IDN",
+        "LAO",
+        "MYS",
+        "MMR",
+        "PHL",
+        "SGP",
+        "THA",
+        "TLS",
+        "VNM",
+        "AFG",
+        "BGD",
+        "BTN",
+        "IND",
+        "IRN",
+        "MDV",
+        "NPL",
+        "PAK",
+        "LKA",
+        "ARM",
+        "AZE",
+        "BHR",
+        "CYP",
+        "GEO",
+        "IRQ",
+        "ISR",
+        "JOR",
+        "KWT",
+        "LBN",
+        "OMN",
+        "QAT",
+        "SAU",
+        "SYR",
+        "TUR",
+        "ARE",
+        "YEM"
+      ]
+    },
+    "5400": {
+      "code": "5400",
+      "name": "Europe",
+      "subregions": [
+        {
+          "code": "5410",
+          "name": "Eastern Europe",
+          "subsubregions": []
+        },
+        {
+          "code": "5420",
+          "name": "Northern Europe",
+          "subsubregions": []
+        },
+        {
+          "code": "5430",
+          "name": "Southern Europe",
+          "subsubregions": []
+        },
+        {
+          "code": "5440",
+          "name": "Western Europe",
+          "subsubregions": []
+        }
+      ],
+      "countries": [
+        "BLR",
+        "BGR",
+        "CZE",
+        "HUN",
+        "POL",
+        "MDA",
+        "ROU",
+        "RUS",
+        "SVK",
+        "UKR",
+        "DNK",
+        "EST",
+        "FIN",
+        "ISL",
+        "IRL",
+        "LVA",
+        "LTU",
+        "NOR",
+        "SWE",
+        "GBR",
+        "ALB",
+        "BIH",
+        "HRV",
+        "GRC",
+        "ITA",
+        "MLT",
+        "MNE",
+        "MKD",
+        "PRT",
+        "SRB",
+        "SVN",
+        "ESP",
+        "AUT",
+        "BEL",
+        "FRA",
+        "DEU",
+        "LUX",
+        "NLD",
+        "CHE"
+      ]
+    },
+    "5500": {
+      "code": "5500",
+      "name": "Oceania",
+      "subregions": [
+        {
+          "code": "5520",
+          "name": "Australia and New Zealand",
+          "subsubregions": []
+        },
+        {
+          "code": "5510",
+          "name": "Oceania excluding Australia and New Zealand",
+          "subsubregions": []
+        }
+      ],
+      "countries": [
+        "AUS",
+        "NZL",
+        "FJI",
+        "NCL",
+        "PNG",
+        "SLB",
+        "VUT"
+      ]
+    }
+  },
+  "development": {
+    "1400": {
+      "code": "1400",
+      "name": "Developing economies",
+      "countries": [
+        "DZA",
+        "EGY",
+        "LBY",
+        "MAR",
+        "SDN",
+        "TUN",
+        "ESH",
+        "BDI",
+        "COM",
+        "DJI",
+        "ERI",
+        "ETH",
+        "KEN",
+        "MDG",
+        "MWI",
+        "MUS",
+        "MOZ",
+        "RWA",
+        "SOM",
+        "SSD",
+        "UGA",
+        "TZA",
+        "ZMB",
+        "ZWE",
+        "AGO",
+        "CMR",
+        "CAF",
+        "TCD",
+        "COG",
+        "COD",
+        "GNQ",
+        "GAB",
+        "BWA",
+        "SWZ",
+        "LSO",
+        "NAM",
+        "ZAF",
+        "BEN",
+        "BFA",
+        "CIV",
+        "GMB",
+        "GHA",
+        "GIN",
+        "GNB",
+        "LBR",
+        "MLI",
+        "MRT",
+        "NER",
+        "NGA",
+        "SEN",
+        "SLE",
+        "TGO",
+        "BHS",
+        "BRB",
+        "CUB",
+        "DOM",
+        "GRD",
+        "HTI",
+        "JAM",
+        "PRI",
+        "TTO",
+        "BLZ",
+        "CRI",
+        "SLV",
+        "GTM",
+        "HND",
+        "MEX",
+        "NIC",
+        "PAN",
+        "ARG",
+        "BOL",
+        "BRA",
+        "CHL",
+        "COL",
+        "ECU",
+        "GUY",
+        "PRY",
+        "PER",
+        "SUR",
+        "URY",
+        "VEN",
+        "KAZ",
+        "KGZ",
+        "TJK",
+        "TKM",
+        "UZB",
+        "CHN",
+        "HKG",
+        "TWN",
+        "PRK",
+        "MNG",
+        "BRN",
+        "KHM",
+        "IDN",
+        "LAO",
+        "MYS",
+        "MMR",
+        "PHL",
+        "SGP",
+        "THA",
+        "TLS",
+        "VNM",
+        "AFG",
+        "BGD",
+        "BTN",
+        "IND",
+        "IRN",
+        "MDV",
+        "NPL",
+        "PAK",
+        "LKA",
+        "ARM",
+        "AZE",
+        "BHR",
+        "GEO",
+        "IRQ",
+        "JOR",
+        "KWT",
+        "LBN",
+        "OMN",
+        "QAT",
+        "SAU",
+        "SYR",
+        "TUR",
+        "ARE",
+        "YEM",
+        "FJI",
+        "NCL",
+        "PNG",
+        "SLB",
+        "VUT"
+      ]
+    },
+    "1500": {
+      "code": "1500",
+      "name": "Developed economies",
+      "countries": [
+        "CAN",
+        "GRL",
+        "USA",
+        "JPN",
+        "KOR",
+        "CYP",
+        "ISR",
+        "BLR",
+        "BGR",
+        "CZE",
+        "HUN",
+        "POL",
+        "MDA",
+        "ROU",
+        "RUS",
+        "SVK",
+        "UKR",
+        "DNK",
+        "EST",
+        "FIN",
+        "ISL",
+        "IRL",
+        "LVA",
+        "LTU",
+        "NOR",
+        "SWE",
+        "GBR",
+        "ALB",
+        "BIH",
+        "HRV",
+        "GRC",
+        "ITA",
+        "MLT",
+        "MNE",
+        "MKD",
+        "PRT",
+        "SRB",
+        "SVN",
+        "ESP",
+        "AUT",
+        "BEL",
+        "FRA",
+        "DEU",
+        "LUX",
+        "NLD",
+        "CHE",
+        "AUS",
+        "NZL"
+      ]
+    },
+    "1610": {
+      "code": "1610",
+      "name": "Least Developed Countries (LDCs)",
+      "countries": [
+        "SDN",
+        "BDI",
+        "COM",
+        "DJI",
+        "ERI",
+        "ETH",
+        "MDG",
+        "MWI",
+        "MOZ",
+        "RWA",
+        "SOM",
+        "SSD",
+        "UGA",
+        "TZA",
+        "ZMB",
+        "AGO",
+        "CAF",
+        "TCD",
+        "COD",
+        "LSO",
+        "BEN",
+        "BFA",
+        "GMB",
+        "GIN",
+        "GNB",
+        "LBR",
+        "MLI",
+        "MRT",
+        "NER",
+        "SEN",
+        "SLE",
+        "TGO",
+        "HTI",
+        "KHM",
+        "LAO",
+        "MMR",
+        "TLS",
+        "AFG",
+        "BGD",
+        "NPL",
+        "YEM",
+        "SLB"
+      ]
+    }
+  },
+  "countries": {
+    "DZA": {
+      "code": "DZA",
+      "name": "Algeria",
+      "regions": [
+        "5100",
+        "5110"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "EGY": {
+      "code": "EGY",
+      "name": "Egypt",
+      "regions": [
+        "5100",
+        "5110"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "LBY": {
+      "code": "LBY",
+      "name": "Libya",
+      "regions": [
+        "5100",
+        "5110"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "MAR": {
+      "code": "MAR",
+      "name": "Morocco",
+      "regions": [
+        "5100",
+        "5110"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "SDN": {
+      "code": "SDN",
+      "name": "Sudan",
+      "regions": [
+        "5100",
+        "5110"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "TUN": {
+      "code": "TUN",
+      "name": "Tunisia",
+      "regions": [
+        "5100",
+        "5110"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "ESH": {
+      "code": "ESH",
+      "name": "Western Sahara",
+      "regions": [
+        "5100",
+        "5110"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "BDI": {
+      "code": "BDI",
+      "name": "Burundi",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "COM": {
+      "code": "COM",
+      "name": "Comoros",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "DJI": {
+      "code": "DJI",
+      "name": "Djibouti",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "ERI": {
+      "code": "ERI",
+      "name": "Eritrea",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "ETH": {
+      "code": "ETH",
+      "name": "Ethiopia",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "KEN": {
+      "code": "KEN",
+      "name": "Kenya",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "MDG": {
+      "code": "MDG",
+      "name": "Madagascar",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "MWI": {
+      "code": "MWI",
+      "name": "Malawi",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "MUS": {
+      "code": "MUS",
+      "name": "Mauritius",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "MOZ": {
+      "code": "MOZ",
+      "name": "Mozambique",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "RWA": {
+      "code": "RWA",
+      "name": "Rwanda",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "SOM": {
+      "code": "SOM",
+      "name": "Somalia",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "SSD": {
+      "code": "SSD",
+      "name": "South Sudan",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "UGA": {
+      "code": "UGA",
+      "name": "Uganda",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "TZA": {
+      "code": "TZA",
+      "name": "United Republic of Tanzania",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "ZMB": {
+      "code": "ZMB",
+      "name": "Zambia",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "ZWE": {
+      "code": "ZWE",
+      "name": "Zimbabwe",
+      "regions": [
+        "5100",
+        "5120",
+        "5121"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "AGO": {
+      "code": "AGO",
+      "name": "Angola",
+      "regions": [
+        "5100",
+        "5120",
+        "5122"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "CMR": {
+      "code": "CMR",
+      "name": "Cameroon",
+      "regions": [
+        "5100",
+        "5120",
+        "5122"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "CAF": {
+      "code": "CAF",
+      "name": "Central African Republic",
+      "regions": [
+        "5100",
+        "5120",
+        "5122"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "TCD": {
+      "code": "TCD",
+      "name": "Chad",
+      "regions": [
+        "5100",
+        "5120",
+        "5122"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "COG": {
+      "code": "COG",
+      "name": "Congo",
+      "regions": [
+        "5100",
+        "5120",
+        "5122"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "COD": {
+      "code": "COD",
+      "name": "Dem. Rep. of the Congo",
+      "regions": [
+        "5100",
+        "5120",
+        "5122"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "GNQ": {
+      "code": "GNQ",
+      "name": "Equatorial Guinea",
+      "regions": [
+        "5100",
+        "5120",
+        "5122"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "GAB": {
+      "code": "GAB",
+      "name": "Gabon",
+      "regions": [
+        "5100",
+        "5120",
+        "5122"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "BWA": {
+      "code": "BWA",
+      "name": "Botswana",
+      "regions": [
+        "5100",
+        "5120",
+        "5123"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "SWZ": {
+      "code": "SWZ",
+      "name": "Eswatini",
+      "regions": [
+        "5100",
+        "5120",
+        "5123"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "LSO": {
+      "code": "LSO",
+      "name": "Lesotho",
+      "regions": [
+        "5100",
+        "5120",
+        "5123"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "NAM": {
+      "code": "NAM",
+      "name": "Namibia",
+      "regions": [
+        "5100",
+        "5120",
+        "5123"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "ZAF": {
+      "code": "ZAF",
+      "name": "South Africa",
+      "regions": [
+        "5100",
+        "5120",
+        "5123"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "BEN": {
+      "code": "BEN",
+      "name": "Benin",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "BFA": {
+      "code": "BFA",
+      "name": "Burkina Faso",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "CIV": {
+      "code": "CIV",
+      "name": "Côte d'Ivoire",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "GMB": {
+      "code": "GMB",
+      "name": "Gambia",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "GHA": {
+      "code": "GHA",
+      "name": "Ghana",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "GIN": {
+      "code": "GIN",
+      "name": "Guinea",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "GNB": {
+      "code": "GNB",
+      "name": "Guinea-Bissau",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "LBR": {
+      "code": "LBR",
+      "name": "Liberia",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "MLI": {
+      "code": "MLI",
+      "name": "Mali",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "MRT": {
+      "code": "MRT",
+      "name": "Mauritania",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "NER": {
+      "code": "NER",
+      "name": "Niger",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "NGA": {
+      "code": "NGA",
+      "name": "Nigeria",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "SEN": {
+      "code": "SEN",
+      "name": "Senegal",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "SLE": {
+      "code": "SLE",
+      "name": "Sierra Leone",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "TGO": {
+      "code": "TGO",
+      "name": "Togo",
+      "regions": [
+        "5100",
+        "5120",
+        "5124"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "CAN": {
+      "code": "CAN",
+      "name": "Canada",
+      "regions": [
+        "5200",
+        "5210"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "GRL": {
+      "code": "GRL",
+      "name": "Greenland",
+      "regions": [
+        "5200",
+        "5210"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "USA": {
+      "code": "USA",
+      "name": "United States",
+      "regions": [
+        "5200",
+        "5210"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "BHS": {
+      "code": "BHS",
+      "name": "Bahamas",
+      "regions": [
+        "5200",
+        "5220",
+        "5221"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "BRB": {
+      "code": "BRB",
+      "name": "Barbados",
+      "regions": [
+        "5200",
+        "5220",
+        "5221"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "CUB": {
+      "code": "CUB",
+      "name": "Cuba",
+      "regions": [
+        "5200",
+        "5220",
+        "5221"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "DOM": {
+      "code": "DOM",
+      "name": "Dominican Republic",
+      "regions": [
+        "5200",
+        "5220",
+        "5221"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "GRD": {
+      "code": "GRD",
+      "name": "Grenada",
+      "regions": [
+        "5200",
+        "5220",
+        "5221"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "HTI": {
+      "code": "HTI",
+      "name": "Haiti",
+      "regions": [
+        "5200",
+        "5220",
+        "5221"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "JAM": {
+      "code": "JAM",
+      "name": "Jamaica",
+      "regions": [
+        "5200",
+        "5220",
+        "5221"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "PRI": {
+      "code": "PRI",
+      "name": "Puerto Rico",
+      "regions": [
+        "5200",
+        "5220",
+        "5221"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "TTO": {
+      "code": "TTO",
+      "name": "Trinidad and Tobago",
+      "regions": [
+        "5200",
+        "5220",
+        "5221"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "BLZ": {
+      "code": "BLZ",
+      "name": "Belize",
+      "regions": [
+        "5200",
+        "5220",
+        "5222"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "CRI": {
+      "code": "CRI",
+      "name": "Costa Rica",
+      "regions": [
+        "5200",
+        "5220",
+        "5222"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "SLV": {
+      "code": "SLV",
+      "name": "El Salvador",
+      "regions": [
+        "5200",
+        "5220",
+        "5222"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "GTM": {
+      "code": "GTM",
+      "name": "Guatemala",
+      "regions": [
+        "5200",
+        "5220",
+        "5222"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "HND": {
+      "code": "HND",
+      "name": "Honduras",
+      "regions": [
+        "5200",
+        "5220",
+        "5222"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "MEX": {
+      "code": "MEX",
+      "name": "Mexico",
+      "regions": [
+        "5200",
+        "5220",
+        "5222"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "NIC": {
+      "code": "NIC",
+      "name": "Nicaragua",
+      "regions": [
+        "5200",
+        "5220",
+        "5222"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "PAN": {
+      "code": "PAN",
+      "name": "Panama",
+      "regions": [
+        "5200",
+        "5220",
+        "5222"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "ARG": {
+      "code": "ARG",
+      "name": "Argentina",
+      "regions": [
+        "5200",
+        "5220",
+        "5223"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "BOL": {
+      "code": "BOL",
+      "name": "Bolivia (Plurinational State of)",
+      "regions": [
+        "5200",
+        "5220",
+        "5223"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "BRA": {
+      "code": "BRA",
+      "name": "Brazil",
+      "regions": [
+        "5200",
+        "5220",
+        "5223"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "CHL": {
+      "code": "CHL",
+      "name": "Chile",
+      "regions": [
+        "5200",
+        "5220",
+        "5223"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "COL": {
+      "code": "COL",
+      "name": "Colombia",
+      "regions": [
+        "5200",
+        "5220",
+        "5223"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "ECU": {
+      "code": "ECU",
+      "name": "Ecuador",
+      "regions": [
+        "5200",
+        "5220",
+        "5223"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "GUY": {
+      "code": "GUY",
+      "name": "Guyana",
+      "regions": [
+        "5200",
+        "5220",
+        "5223"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "PRY": {
+      "code": "PRY",
+      "name": "Paraguay",
+      "regions": [
+        "5200",
+        "5220",
+        "5223"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "PER": {
+      "code": "PER",
+      "name": "Peru",
+      "regions": [
+        "5200",
+        "5220",
+        "5223"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "SUR": {
+      "code": "SUR",
+      "name": "Suriname",
+      "regions": [
+        "5200",
+        "5220",
+        "5223"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "URY": {
+      "code": "URY",
+      "name": "Uruguay",
+      "regions": [
+        "5200",
+        "5220",
+        "5223"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "VEN": {
+      "code": "VEN",
+      "name": "Venezuela (Bolivarian Rep. of)",
+      "regions": [
+        "5200",
+        "5220",
+        "5223"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "KAZ": {
+      "code": "KAZ",
+      "name": "Kazakhstan",
+      "regions": [
+        "5300",
+        "5310"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "KGZ": {
+      "code": "KGZ",
+      "name": "Kyrgyzstan",
+      "regions": [
+        "5300",
+        "5310"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "TJK": {
+      "code": "TJK",
+      "name": "Tajikistan",
+      "regions": [
+        "5300",
+        "5310"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "TKM": {
+      "code": "TKM",
+      "name": "Turkmenistan",
+      "regions": [
+        "5300",
+        "5310"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "UZB": {
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "regions": [
+        "5300",
+        "5310"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "CHN": {
+      "code": "CHN",
+      "name": "China",
+      "regions": [
+        "5300",
+        "5330"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "HKG": {
+      "code": "HKG",
+      "name": "China, Hong Kong SAR",
+      "regions": [
+        "5300",
+        "5330"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "TWN": {
+      "code": "TWN",
+      "name": "China, Taiwan Province of",
+      "regions": [
+        "5300",
+        "5330"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "PRK": {
+      "code": "PRK",
+      "name": "Dem. People's Rep. of Korea",
+      "regions": [
+        "5300",
+        "5330"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "JPN": {
+      "code": "JPN",
+      "name": "Japan",
+      "regions": [
+        "5300",
+        "5330"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "MNG": {
+      "code": "MNG",
+      "name": "Mongolia",
+      "regions": [
+        "5300",
+        "5330"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "KOR": {
+      "code": "KOR",
+      "name": "Republic of Korea",
+      "regions": [
+        "5300",
+        "5330"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "BRN": {
+      "code": "BRN",
+      "name": "Brunei Darussalam",
+      "regions": [
+        "5300",
+        "5350"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "KHM": {
+      "code": "KHM",
+      "name": "Cambodia",
+      "regions": [
+        "5300",
+        "5350"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "IDN": {
+      "code": "IDN",
+      "name": "Indonesia",
+      "regions": [
+        "5300",
+        "5350"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "LAO": {
+      "code": "LAO",
+      "name": "Lao People's Dem. Rep.",
+      "regions": [
+        "5300",
+        "5350"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "MYS": {
+      "code": "MYS",
+      "name": "Malaysia",
+      "regions": [
+        "5300",
+        "5350"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "MMR": {
+      "code": "MMR",
+      "name": "Myanmar",
+      "regions": [
+        "5300",
+        "5350"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "PHL": {
+      "code": "PHL",
+      "name": "Philippines",
+      "regions": [
+        "5300",
+        "5350"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "SGP": {
+      "code": "SGP",
+      "name": "Singapore",
+      "regions": [
+        "5300",
+        "5350"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "THA": {
+      "code": "THA",
+      "name": "Thailand",
+      "regions": [
+        "5300",
+        "5350"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "TLS": {
+      "code": "TLS",
+      "name": "Timor-Leste",
+      "regions": [
+        "5300",
+        "5350"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "VNM": {
+      "code": "VNM",
+      "name": "Viet Nam",
+      "regions": [
+        "5300",
+        "5350"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "AFG": {
+      "code": "AFG",
+      "name": "Afghanistan",
+      "regions": [
+        "5300",
+        "5320"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "BGD": {
+      "code": "BGD",
+      "name": "Bangladesh",
+      "regions": [
+        "5300",
+        "5320"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "BTN": {
+      "code": "BTN",
+      "name": "Bhutan",
+      "regions": [
+        "5300",
+        "5320"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "IND": {
+      "code": "IND",
+      "name": "India",
+      "regions": [
+        "5300",
+        "5320"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "IRN": {
+      "code": "IRN",
+      "name": "Iran (Islamic Republic of)",
+      "regions": [
+        "5300",
+        "5320"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "MDV": {
+      "code": "MDV",
+      "name": "Maldives",
+      "regions": [
+        "5300",
+        "5320"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "NPL": {
+      "code": "NPL",
+      "name": "Nepal",
+      "regions": [
+        "5300",
+        "5320"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "PAK": {
+      "code": "PAK",
+      "name": "Pakistan",
+      "regions": [
+        "5300",
+        "5320"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "LKA": {
+      "code": "LKA",
+      "name": "Sri Lanka",
+      "regions": [
+        "5300",
+        "5320"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "ARM": {
+      "code": "ARM",
+      "name": "Armenia",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "AZE": {
+      "code": "AZE",
+      "name": "Azerbaijan",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "BHR": {
+      "code": "BHR",
+      "name": "Bahrain",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "CYP": {
+      "code": "CYP",
+      "name": "Cyprus",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "GEO": {
+      "code": "GEO",
+      "name": "Georgia",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "IRQ": {
+      "code": "IRQ",
+      "name": "Iraq",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "ISR": {
+      "code": "ISR",
+      "name": "Israel",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "JOR": {
+      "code": "JOR",
+      "name": "Jordan",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "KWT": {
+      "code": "KWT",
+      "name": "Kuwait",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "LBN": {
+      "code": "LBN",
+      "name": "Lebanon",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "OMN": {
+      "code": "OMN",
+      "name": "Oman",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "QAT": {
+      "code": "QAT",
+      "name": "Qatar",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "SAU": {
+      "code": "SAU",
+      "name": "Saudi Arabia",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "SYR": {
+      "code": "SYR",
+      "name": "Syrian Arab Republic",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "TUR": {
+      "code": "TUR",
+      "name": "Türkiye",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "ARE": {
+      "code": "ARE",
+      "name": "United Arab Emirates",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "YEM": {
+      "code": "YEM",
+      "name": "Yemen",
+      "regions": [
+        "5300",
+        "5340"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "BLR": {
+      "code": "BLR",
+      "name": "Belarus",
+      "regions": [
+        "5400",
+        "5410"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "BGR": {
+      "code": "BGR",
+      "name": "Bulgaria",
+      "regions": [
+        "5400",
+        "5410"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "CZE": {
+      "code": "CZE",
+      "name": "Czechia",
+      "regions": [
+        "5400",
+        "5410"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "HUN": {
+      "code": "HUN",
+      "name": "Hungary",
+      "regions": [
+        "5400",
+        "5410"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "POL": {
+      "code": "POL",
+      "name": "Poland",
+      "regions": [
+        "5400",
+        "5410"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "MDA": {
+      "code": "MDA",
+      "name": "Republic of Moldova",
+      "regions": [
+        "5400",
+        "5410"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "ROU": {
+      "code": "ROU",
+      "name": "Romania",
+      "regions": [
+        "5400",
+        "5410"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "RUS": {
+      "code": "RUS",
+      "name": "Russian Federation",
+      "regions": [
+        "5400",
+        "5410"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "SVK": {
+      "code": "SVK",
+      "name": "Slovakia",
+      "regions": [
+        "5400",
+        "5410"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "UKR": {
+      "code": "UKR",
+      "name": "Ukraine",
+      "regions": [
+        "5400",
+        "5410"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "DNK": {
+      "code": "DNK",
+      "name": "Denmark",
+      "regions": [
+        "5400",
+        "5420"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "EST": {
+      "code": "EST",
+      "name": "Estonia",
+      "regions": [
+        "5400",
+        "5420"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "FIN": {
+      "code": "FIN",
+      "name": "Finland",
+      "regions": [
+        "5400",
+        "5420"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "ISL": {
+      "code": "ISL",
+      "name": "Iceland",
+      "regions": [
+        "5400",
+        "5420"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "IRL": {
+      "code": "IRL",
+      "name": "Ireland",
+      "regions": [
+        "5400",
+        "5420"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "LVA": {
+      "code": "LVA",
+      "name": "Latvia",
+      "regions": [
+        "5400",
+        "5420"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "LTU": {
+      "code": "LTU",
+      "name": "Lithuania",
+      "regions": [
+        "5400",
+        "5420"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "NOR": {
+      "code": "NOR",
+      "name": "Norway",
+      "regions": [
+        "5400",
+        "5420"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "SWE": {
+      "code": "SWE",
+      "name": "Sweden",
+      "regions": [
+        "5400",
+        "5420"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "GBR": {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "regions": [
+        "5400",
+        "5420"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "ALB": {
+      "code": "ALB",
+      "name": "Albania",
+      "regions": [
+        "5400",
+        "5430"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "BIH": {
+      "code": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "regions": [
+        "5400",
+        "5430"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "HRV": {
+      "code": "HRV",
+      "name": "Croatia",
+      "regions": [
+        "5400",
+        "5430"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "GRC": {
+      "code": "GRC",
+      "name": "Greece",
+      "regions": [
+        "5400",
+        "5430"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "ITA": {
+      "code": "ITA",
+      "name": "Italy",
+      "regions": [
+        "5400",
+        "5430"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "MLT": {
+      "code": "MLT",
+      "name": "Malta",
+      "regions": [
+        "5400",
+        "5430"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "MNE": {
+      "code": "MNE",
+      "name": "Montenegro",
+      "regions": [
+        "5400",
+        "5430"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "MKD": {
+      "code": "MKD",
+      "name": "North Macedonia",
+      "regions": [
+        "5400",
+        "5430"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "PRT": {
+      "code": "PRT",
+      "name": "Portugal",
+      "regions": [
+        "5400",
+        "5430"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "SRB": {
+      "code": "SRB",
+      "name": "Serbia",
+      "regions": [
+        "5400",
+        "5430"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "SVN": {
+      "code": "SVN",
+      "name": "Slovenia",
+      "regions": [
+        "5400",
+        "5430"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "ESP": {
+      "code": "ESP",
+      "name": "Spain",
+      "regions": [
+        "5400",
+        "5430"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "AUT": {
+      "code": "AUT",
+      "name": "Austria",
+      "regions": [
+        "5400",
+        "5440"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "BEL": {
+      "code": "BEL",
+      "name": "Belgium",
+      "regions": [
+        "5400",
+        "5440"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "FRA": {
+      "code": "FRA",
+      "name": "France",
+      "regions": [
+        "5400",
+        "5440"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "DEU": {
+      "code": "DEU",
+      "name": "Germany",
+      "regions": [
+        "5400",
+        "5440"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "LUX": {
+      "code": "LUX",
+      "name": "Luxembourg",
+      "regions": [
+        "5400",
+        "5440"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "NLD": {
+      "code": "NLD",
+      "name": "Netherlands (Kingdom of the)",
+      "regions": [
+        "5400",
+        "5440"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "CHE": {
+      "code": "CHE",
+      "name": "Switzerland",
+      "regions": [
+        "5400",
+        "5440"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "AUS": {
+      "code": "AUS",
+      "name": "Australia",
+      "regions": [
+        "5500",
+        "5520"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "NZL": {
+      "code": "NZL",
+      "name": "New Zealand",
+      "regions": [
+        "5500",
+        "5520"
+      ],
+      "development": [
+        "1500"
+      ]
+    },
+    "FJI": {
+      "code": "FJI",
+      "name": "Fiji",
+      "regions": [
+        "5500",
+        "5510"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "NCL": {
+      "code": "NCL",
+      "name": "New Caledonia",
+      "regions": [
+        "5500",
+        "5510"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "PNG": {
+      "code": "PNG",
+      "name": "Papua New Guinea",
+      "regions": [
+        "5500",
+        "5510"
+      ],
+      "development": [
+        "1400"
+      ]
+    },
+    "SLB": {
+      "code": "SLB",
+      "name": "Solomon Islands",
+      "regions": [
+        "5500",
+        "5510"
+      ],
+      "development": [
+        "1400",
+        "1610"
+      ]
+    },
+    "VUT": {
+      "code": "VUT",
+      "name": "Vanuatu",
+      "regions": [
+        "5500",
+        "5510"
+      ],
+      "development": [
+        "1400"
+      ]
+    }
+  }
+}
